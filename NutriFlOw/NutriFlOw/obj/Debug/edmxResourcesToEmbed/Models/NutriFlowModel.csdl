@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="NutriFlowModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="NutriFlowModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UsuariosSet" EntityType="NutriFlowModel.Usuarios" />
+    <EntitySet Name="UserProfile" EntityType="NutriFlowModel.UserProfile" />
+    <AssociationSet Name="UsersProfile" Association="NutriFlowModel.UsersProfile">
+      <End Role="Usuarios" EntitySet="UsuariosSet" />
+      <End Role="UserProfile" EntitySet="UserProfile" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Type="Int32" Name="IdUsuario" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FirstName" Nullable="false" />
+    <Property Type="String" Name="LastName" Nullable="false" />
+    <Property Type="String" Name="NickName" Nullable="false" />
+    <Property Type="String" Name="Email" Nullable="false" />
+    <Property Type="String" Name="Password" Nullable="false" />
+    <Property Type="Boolean" Name="IsValid" Nullable="false" />
+    <NavigationProperty Name="UserProfile" Relationship="NutriFlowModel.UsersProfile" FromRole="Usuarios" ToRole="UserProfile" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="Date" />
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Type="Byte" Name="Gender" Nullable="false" />
+    <Property Type="DateTime" Name="Date" Nullable="false" />
+    <Property Type="Double" Name="Weight" Nullable="false" />
+    <Property Type="Double" Name="GoalWeight" Nullable="false" />
+    <Property Type="Double" Name="Height" Nullable="false" />
+    <Property Type="Double" Name="BirthDay" Nullable="false" />
+    <Property Type="Byte" Name="HowActive" Nullable="false" />
+    <Property Type="Double" Name="BodyMass" Nullable="false" />
+    <NavigationProperty Name="Usuarios" Relationship="NutriFlowModel.UsersProfile" FromRole="UserProfile" ToRole="Usuarios" />
+    <Property Type="Int32" Name="IdUsuario" Nullable="false" />
+  </EntityType>
+  <Association Name="UsersProfile">
+    <End Type="NutriFlowModel.Usuarios" Role="Usuarios" Multiplicity="1" />
+    <End Type="NutriFlowModel.UserProfile" Role="UserProfile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="UserProfile">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
