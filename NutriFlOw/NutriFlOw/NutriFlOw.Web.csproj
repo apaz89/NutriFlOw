@@ -141,6 +141,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NutriFlOw.Data\NutriFlOw.Data.csproj">
+      <Project>{1558eaa7-8f93-48e6-a611-26db9aaaf7f8}</Project>
+      <Name>NutriFlOw.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NutriFlOw.Domain\NutriFlOw.Domain.csproj">
+      <Project>{13f5c1c2-bfd8-4d32-9c53-f93e8c55db36}</Project>
+      <Name>NutriFlOw.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
