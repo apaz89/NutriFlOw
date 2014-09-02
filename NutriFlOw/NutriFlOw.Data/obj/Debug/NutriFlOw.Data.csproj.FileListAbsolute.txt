@@ -1,0 +1,12 @@
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\NutriFlOw.Data.dll
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\NutriFlOw.Data.pdb
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\AutoMapper.dll
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\NutriFlOw.Domain.exe
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\EntityFramework.dll
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\NutriFlOw.Domain.pdb
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\AutoMapper.xml
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\EntityFramework.xml
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\obj\Debug\NutriFlOw.Data.csprojResolveAssemblyReference.cache
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\obj\Debug\NutriFlOw.Data.dll
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\obj\Debug\NutriFlOw.Data.pdb
