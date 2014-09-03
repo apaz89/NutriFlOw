@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NutriFlOw.Domain.Prueba;
+using NutriFlOw.Domain.EntidadesNutriFlow;
 
 namespace NutriFlOw.Domain
 {
@@ -13,8 +13,8 @@ namespace NutriFlOw.Domain
         {
             var usuario = new Usuario
             {
-                FirstName = "Nadege",
-                LastName = "Deroussen",
+                Nombre = "Nadege",
+                Apellido= "Deroussen",
             };
 
             using (var context = new DBContext())

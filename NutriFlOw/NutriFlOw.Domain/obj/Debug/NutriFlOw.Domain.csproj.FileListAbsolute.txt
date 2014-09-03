@@ -8,3 +8,12 @@ C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\bin\Debug\EntityFr
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\obj\Debug\NutriFlOw.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\obj\Debug\NutriFlOw.Domain.exe
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\obj\Debug\NutriFlOw.Domain.pdb
+C:\Users\JRZB\Documents\GitHub\nutriflow\NutriFlOw\NutriFlOw.Domain\bin\Debug\NutriFlOw.Domain.exe.config
+C:\Users\JRZB\Documents\GitHub\nutriflow\NutriFlOw\NutriFlOw.Domain\bin\Debug\NutriFlOw.Domain.exe
+C:\Users\JRZB\Documents\GitHub\nutriflow\NutriFlOw\NutriFlOw.Domain\bin\Debug\NutriFlOw.Domain.pdb
+C:\Users\JRZB\Documents\GitHub\nutriflow\NutriFlOw\NutriFlOw.Domain\bin\Debug\EntityFramework.dll
+C:\Users\JRZB\Documents\GitHub\nutriflow\NutriFlOw\NutriFlOw.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JRZB\Documents\GitHub\nutriflow\NutriFlOw\NutriFlOw.Domain\bin\Debug\EntityFramework.xml
+C:\Users\JRZB\Documents\GitHub\nutriflow\NutriFlOw\NutriFlOw.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JRZB\Documents\GitHub\nutriflow\NutriFlOw\NutriFlOw.Domain\obj\Debug\NutriFlOw.Domain.exe
+C:\Users\JRZB\Documents\GitHub\nutriflow\NutriFlOw\NutriFlOw.Domain\obj\Debug\NutriFlOw.Domain.pdb

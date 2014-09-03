@@ -48,11 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntidadesNutriFlow\ProfileUser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prueba\DBContext.cs" />
     <Compile Include="Prueba\IEntity.cs" />
-    <Compile Include="Prueba\Usuario.cs" />
+    <Compile Include="EntidadesNutriFlow\Usuario.cs" />
     <Compile Include="Services\IReadOnlyRepository.cs" />
     <Compile Include="Services\IWriteOnlyRepository.cs" />
   </ItemGroup>
