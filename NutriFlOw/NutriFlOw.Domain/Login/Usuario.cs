@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace NutriFlOw.Domain
 {
-    public interface IEntity
+    public class Usuario
     {
-        long Id { get; set; }
-
-        bool IsArchived { get; set; }
+        public int UsuarioId { get; set; }
+        public string LastName { get; set; }
+        public string FirstName { get; set; }
     }
 }
