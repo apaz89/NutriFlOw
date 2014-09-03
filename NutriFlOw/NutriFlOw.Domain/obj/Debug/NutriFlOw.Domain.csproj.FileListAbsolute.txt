@@ -5,6 +5,5 @@ C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\bin\Debug\EntityFr
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\bin\Debug\EntityFramework.xml
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\obj\Debug\NutriFlOw.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\obj\Debug\NutriFlOw.Domain.exe
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Domain\obj\Debug\NutriFlOw.Domain.pdb

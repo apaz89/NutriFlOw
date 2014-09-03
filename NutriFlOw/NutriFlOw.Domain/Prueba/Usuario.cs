@@ -11,7 +11,7 @@ namespace NutriFlOw.Domain.Prueba
             public int UsuarioId { get; set; }
             public string LastName { get; set; }
             public string FirstName { get; set; }
-            
-             
+            public string Password { get; set; }
+            public string EMail { get; set; }
     }
 }
