@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NutriFlOw.Domain.Migrations;
 using NutriFlOw.Domain.Prueba;
 
 namespace NutriFlOw.Domain
@@ -15,6 +16,9 @@ namespace NutriFlOw.Domain
             {
                 FirstName = "Nadege",
                 LastName = "Deroussen",
+                Password = "CUIIIII",
+                EMail = "lalalala",
+                Id=1
             };
 
             using (var context = new DBContext())

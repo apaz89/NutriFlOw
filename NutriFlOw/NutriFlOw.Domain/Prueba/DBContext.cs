@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity;
 using NutriFlOw.Domain.Prueba;
 
 namespace NutriFlOw.Domain
 {
-    public class DBContext:DbContext
+    public class DBContext:DbContext,IDBContext
     {
         public DbSet<Usuario> Usuarios { get; set; }
-        
-        public DBContext()
-        {
+
+            public DBContext()
+            {
                 
-        }
+            }
     }
 }

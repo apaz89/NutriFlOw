@@ -7,7 +7,7 @@ namespace NutriFlOw.Models
 {
     public class UsuarioModel
         {
-            public int UsuarioId;
+            public long Id;
             public string LastName;
             public string FirstName;
             

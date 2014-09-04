@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Objects;
+using System.Data.Entity.Core.Objects.DataClasses;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -9,21 +11,25 @@ using NutriFlOw.Domain.Services;
 
 namespace NutriFlOw.Data
 {
-    public class ReadOnlyRepository:IReadOnlyRepository
+    public class ReadOnlyRepository<TType, TContext> : IReadOnlyRepository<TType>
+        where TContext : ObjectContext, new()
+        where TType : EntityObject
         {
-            public T First<T>(Expression<Func<T, bool>> query) where T : class, IEntity
+            private readonly TContext _entity = new TContext();
+
+            protected TContext Context
             {
-                throw new NotImplementedException();
+                get { return this._entity; }
             }
 
-            public T GetById<T>(long id) where T : class, IEntity
+            public TType Get(Expression<Func<TType, bool>> filter)
             {
-                throw new NotImplementedException();
+                return this._entity.CreateObjectSet<TType>().SingleOrDefault(filter);
             }
 
-            public IQueryable<T> Query<T>(Expression<Func<T, bool>> expression) where T : class, IEntity
+            public ICollection<TType> GetAll()
             {
-                throw new NotImplementedException();
+                return this._entity.CreateObjectSet<TType>().ToList();
             }
         }
 }

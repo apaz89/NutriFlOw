@@ -5,25 +5,26 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 using BootstrapMvcSample.Controllers;
+using NutriFlOw.Domain.Prueba;
 using NutriFlOw.Domain.Services;
 using NutriFlOw.Models.Account;
+using NutriFlOw.Data;
 
 namespace NutriFlOw.Controllers.Account
 {
     public class LoginController : BootstrapBaseController
     {
-        private readonly IReadOnlyRepository _readOnlyRepository;
-        private readonly IWriteOnlyRepository _writeOnlyRepository;
+        private readonly IRepository<IEntity> _repository;
 
-        public LoginController(IReadOnlyRepository readOnlyRepository, IWriteOnlyRepository writeOnlyRepository)
+        public LoginController(IRepository<IEntity> repository)
         {
-            _readOnlyRepository = readOnlyRepository;
-            _writeOnlyRepository = writeOnlyRepository;
+            _repository = repository;
         }
 
         [HttpGet]
         public ActionResult Login()
         {
+            //var juanito=_repository.Get()
             return View(new LoginModel());
         }
 

@@ -10,3 +10,6 @@ C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\EntityFram
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\obj\Debug\NutriFlOw.Data.csprojResolveAssemblyReference.cache
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\obj\Debug\NutriFlOw.Data.dll
 C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\obj\Debug\NutriFlOw.Data.pdb
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\NutriFlOw.Data.dll.config
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wendy\Documents\NutriFlOw\NutriFlOw\NutriFlOw.Data\bin\Debug\EntityFramework.SqlServer.xml
