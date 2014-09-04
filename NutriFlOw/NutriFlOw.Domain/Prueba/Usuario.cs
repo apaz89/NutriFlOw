@@ -10,8 +10,13 @@ namespace NutriFlOw.Domain.Prueba
     {
             public int UsuarioId { get; set; }
             public string LastName { get; set; }
+<<<<<<< HEAD
             public string FirstName { get; set; }
-            
+            public string Password { get; set; }
+            public string EMail { get; set; }
+=======
+            public string FirstName { get; set; }           
              
+>>>>>>> 8149115bdb755f1aaf34d48fbb70e9383badcf1c
     }
 }
